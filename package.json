@@ -11,10 +11,10 @@
     "create:route": "pnpm --filter=@repo/server create:route"
   },
   "devDependencies": {
-    "eslint": "^9.31.0",
+    "eslint": "^9.38.0",
     "prettier": "^3.6.2",
-    "turbo": "^2.5.5",
-    "typescript": "^5.8.3"
+    "turbo": "^2.5.8",
+    "typescript": "^5.9.3"
   },
   "packageManager": "pnpm@8.15.6",
   "name": "reno-stack-monorepo",
