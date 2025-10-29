@@ -1,7 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
 import { createFileRoute } from "@tanstack/react-router";
-import { AuthShowcase } from "../components/auth-showcase";
-
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -23,7 +20,6 @@ function Index() {
           <span className="font-semibold text-primary">fun</span> stack for your
           next project. <span className="inline-block text-white">🚀</span>
         </p>
-        <AuthShowcase />
       </div>
     </div>
   );
